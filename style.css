@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.upper-nav{
+    background-color: #7749F8;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 8%;
+    color: #f8f9fa;
+    margin: 0 ;
+}
+.upper-nav button{
+    border: none;
+    background-color: transparent;
+    color: #f8f9fa;
+}
+.btnn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.btnn button{
+    border: none;
+    background-color: transparent;
+    color: #f8f9fa;
+}
+.nav{
+    background-color: #f3f3f3;
+    padding: 10px 8%;
+    font-weight: bold;
+    
+}
+.text{
+    margin: 0px !important;font-size: 20px;
+}
+.main{
+    display: grid;
+    place-items: center;   
+    height: 85vh;
+    background-color: #eceef1;
+}
+.signupform{
+    max-width: 400px;
+    width: 90%;
+    height: 60vh;
+    padding: 20px 5%;
+    background-color: #f8f9fa;
+}
+.signupform1{
+    max-width: 400px;
+    width: 90%;
+    height: 40vh;
+    padding: 15px 5%;
+    background-color: #f8f9fa;
+}
+.inpbox{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Signupbtn{
+    background-color: #7749F8;
+    padding: 6px 15px;
+    border: none;
+    border-radius: 5px;
+    color: #f8f9fa;
+}
+.signupinp input:hover{
+border-color: #7749F8 !important;
+}
+.dashboardsection{
+    width: 100%;
+    margin-top: 10px;
+}
+.blogboxinput{
+    width: 60%;
+    height: 100%;
+    margin-left: 15%;
+    margin-bottom: 0px !important;
+}
+.postblogbox{
+    width: 100%;
+    padding: 20px;
+    /* border: 1px solid black; */
+
+}
+.Textarea textarea{
+    width: 100%;
+    resize: none;
+    border: 1px solid rgb(212, 212, 212);
+    padding: 5px 10px;
+}
+.TextArea textarea:focus{
+    outline: none !important;
+}
+.postblogbox button{
+    background-color: #7749F8;
+    border: none;
+    padding: 8px 12px;
+    margin-top: 5px;
+    border-radius: 5px;
+    color: #fff;
+}
+.postflex{
+    display: flex;
+}
+.postflex img{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.postname h3{
+    width: 60%;
+    margin: 0;
+}
+.updatebtn{
+    display: flex;
+    gap: 25px;
+}
+.updatebtn button{
+    border: none;
+    color: #7749F8;
+}
+.postname p{
+    font-weight: 700;
+    color: #91969b;
+}
+.profileimg{
+    width: 230px;
+    height: 230px;
+}
+.profileimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.profileupd{
+    padding: 25px;
+}
+.profileupdbox{
+    margin-top: 15px;
+}
+.profileupdbox h4{
+    margin: 0;
+}
+.updateinput{
+    width: 40%;
+    margin-top: 5px;
+    height: 20vh;
+}
+.updatepassword{
+    color: #fff;
+    background-color: #7749F8;
+    padding: 5px 15px;
+    border-radius:5px ;
+}
+.icon{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 8px;
+    transform: translateY(-25px);
+    
+}
+.icon i{
+    /* color: #7749F8; */
+    font-size: 20px;
+}
+

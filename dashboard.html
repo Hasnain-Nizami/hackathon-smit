@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="upper-nav bg-body-Primary">
+            <p class="text">Personal blogging App</p>
+            <div class="btnn">
+                <button id="name">Hasnain</button>
+                <button id="logout">Logout</button>
+            </div>
+        </div>
+        <div class="nav">
+
+            <h2>Dashboard</h2>
+        </div>
+    </nav>
+
+    <div class="dashboardsection">
+        <div class="blogboxinput">
+            <div class="postblogbox shadow p-3 mb-2 bg-white rounded">
+                <div class="signupinp input-group flex-nowrap mb-3">
+                    <input type="text" id="placeholder" class="form-control" placeholder="Placeholder"
+                        aria-label="Username" aria-describedby="addon-wrapping">
+                </div>
+                <div class="Textarea">
+                    <textarea placeholder="Whats in your mind" id="postText" cols="39" rows="5"></textarea>
+                </div>
+                <button id="post">Published blog</button>
+            </div>
+            <div class="blogbox">
+                <h2>My Blogs</h2>
+                <div id="parent">
+                    <!-- <div class="postblog shadow p-3 mb-3 bg-white rounded">
+                    <div class="postflex">
+                        <img src="./assets/channels4_profile.jpg" alt="">
+                        <div class="postname">
+                            <h3>An Action Button Could Be Coming to the iPhone 15</h3>
+                            <p>Inzamam Malik - August 16th, 2023</p>
+                        </div>
+                    </div>
+                    <div>
+                        <p style="font-family: sans-serif;">Apple could be putting an Action button on your next iPhone. According to a July report from MacRumors, code in the fourth iOS 17 developer beta hints at functionality for an Action button on the next-gen iPhone 15 Pro and Pro Max models.
+                            Apple introduced the Action button on the Apple Watch Ultra. It's a physical button on the side of the Apple Watch Ultra that allows you to run a preselected function or program when you press it without unlocking your device or navigating to an app. Some of the preselected functions include starting a stopwatch, beginning a workout and turning on your flashlight.</p>
+                    </div>
+                    <div class="updatebtn">
+                        <button onclick="del">Delete</button>
+                        <button onclick="edt">Edit</button>
+                    </div>
+                </div> -->
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Edit</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <div class="edtbox">
+                        <div class="signupinp input-group flex-nowrap mb-3">
+                            <input type="text" id="edtinp" class="form-control" placeholder="placeholder"
+                                aria-label="Username" aria-describedby="addon-wrapping">
+                        </div>
+                        <div class="Textarea">
+                            <textarea placeholder="Whats in your mind" id="edtplace" cols="39" rows="5"></textarea>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" id="update" >Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script src="./dashboard.js" type="module"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+    crossorigin="anonymous"></script>
+
+</html>
